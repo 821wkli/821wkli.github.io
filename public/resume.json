@@ -1,0 +1,239 @@
+{
+  "name":"Wing Kwan LI",
+  "sex":"M",
+  "birthday":"03/1996",
+  "workSince":"null",
+  "nickname":"Kwan",
+  "firstName":"LI",
+  "lastName":"Wing Kwan",
+  "slogan":"Life is a process of debugging, the more you hate the stronger you are",
+  "tips":"Press ctrl + p to print this resume",
+  "education":"Bachelor Of Computing",
+  "phone": "Unavailable",
+  "location":"Hong Kong",
+  "telegram":{
+    "number":"Fingerstyle888"
+  },
+  "website":"https://821wkli.github.io",
+  "github":"https://github.com/821wkli",
+  "email":"wingkwanli888@gmail.com",
+  "intro":{
+    "content":[
+      "2 years solid side project experience on building distributed system.",
+      "Involved design and implementation of cloud infrastructure, backend and frontend from scratch.",
+      "Enjoy discovering the best solution to solve complex problems.",
+      "Embrace open source community."
+    ],
+    "technology":{
+      "title":"技术栈和工具：",
+      "content":[
+        "scss","bootstrap","vue","gulp","node.js","angular","express","mongodb","webpack","ionic","photoshop","axure"
+      ]
+    }
+  },
+  "skill":[
+    {
+      "name":"Css",
+      "percent":"80%"
+    },
+    {
+      "name":"JavaScript",
+      "percent":"90%"
+    },
+    {
+      "name":"Vue",
+      "percent":"95%"
+    },
+    {
+      "name":"React",
+      "percent":"40%"
+    },
+    {
+      "name":"Node.js",
+      "percent":"70%"
+    },
+    {
+      "name":"Java(Android)",
+      "percent":"70%"
+    },
+    {
+      "name":"Spring framework",
+      "percent":"65%"
+    },
+    {
+      "name":"Python",
+      "percent":"90%"
+    },
+    {
+      "name":"Flask framework",
+      "percent":"85%"
+    },
+    {
+      "name":"C#",
+      "percent":"75%"
+    },
+    {
+      "name":".NET Core",
+      "percent":"75%"
+    },
+    {
+      "name":"Golang",
+      "percent":"65%"
+    },
+    {
+      "name": "php",
+      "percent": "70%"
+    },
+    {
+      "name": "Laravel",
+      "percent": "70%"
+    }
+  ],
+  "project":[
+    {
+      "time":"09/2019-11/2019",
+      "title":"Desktop Stock management Tool",
+      "intro":"Freelance",
+      "description":"Development of stock management tool dashboard",
+      "tips":[
+        {
+          "title":"My works",
+          "content":[
+            "Develop GUI from designed prototype.",
+            "Prepare documentations which include UML diagrams.",
+            "Write unit tests.",
+            "Implement business model.",
+            "Integrating printer SDK."
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"Tech stack",
+          "content":[
+            "C#",".NET framework","Entity framework","WPF","sqlite"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"10/2019-03/2020",
+      "title":"Healthcare progressive web app",
+      "intro":"Freelance",
+      "description":"Development Healthcare dashboard that supports responsive solution on Tablet and Mobile screen size, both in Potrait and Landscape view",
+      "tips":[
+        {
+          "title":"My works",
+          "content":[
+            "Develop Page caching solution.",
+            "Develop custom splash screen.",
+            "Develop login form page.",
+            "Develop doctor appointments preview page.",
+            "Develop patient dashboard.",
+            "Develop component states exchange solution.",
+            "Develop header, footer and menu and notification component.",
+            "Implement ajax calls.",
+            "Design and Develop api signature algorithm."
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"Tech stack",
+          "content":[
+            "ES6","Vue","Vue-router","vuex","webpack","fetch","less"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"07/2019-now",
+      "title":"yamibo manga mobile app",
+      "intro":"Freelance",
+      "description":"A cross-platform manga reader app.",
+      "tips":[
+        {
+          "title":"My works",
+          "content":[
+            "Develop spalsh view.",
+            "Develop home view.",
+            "Develop base components which include swiper, footer menu, lazy-loading listview.",
+            "Develop user profile.",
+            "Develop manga detail view.",
+            "Develop manga reader view.",
+            "Develop api models.",
+            "Maintenance android native Java codebase."
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"Tech stack",
+          "content":[
+            "Dart","flutter","Java","okhttp","retrofit","swift"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"04/2019-now",
+      "title":"<a style='display:flex;align-items:center;' href='https://github.com/821wkli/OpenAcg-PWA'><div class='info' style='margin-right:6px;'>OpenAcg</div><svg width=\"24px\" height=\"24px\" style='display:inline-block;'xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>",
+      "intro":"Personal on-growing open sourced project",
+      "description":"All-in-one progressive web app for anime enthusiast to read light novel, manga and watch TV animation.",
+      "tips":[
+        {
+          "title":"Everything is built from scrach",
+          "content":[
+            "Design OpenAcg system archotecture.",
+            "Design database architecture.",
+            "Design and Develop domain mdel.",
+            "Design grpc service prototype.",
+            "Develop distributed web scraping service from various websites & apps.",
+            "Integrate multiple external non-consistent raw data into standard data structure.",
+            "Develop restful apis for frontend use.",
+            "Develop auto update scheduler.",
+            "Design and implement ebook conversion algorithms to convert horizonal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",
+            "Build a load-test framework, scaled cloud service provider automatically and simulate concurrent connections.",
+            "Develop in-app send to kindle ebook reader service.",
+            "Design and Develop mobile progressive web app interface.",
+            "Develop offline storage features."
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"Tech stack：",
+          "content":[
+            "Nginx","Python","Flask","sqlite3","Redis","Docker","grpc","Golang","Node.js","Vue.js","vue-router","vuex","vue-cli","ES6/ES7","service-worker"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"4/2019-7/2019",
+      "title":"Restaurant Admin panel",
+      "intro":"Freelance",
+      "description":"Migrate bootstrap 4 + jquery web dashboard to Vue.js",
+      "tips":[
+        {
+          "title":"My works",
+          "content":[
+            "Refactor UI codebase in Vue template standard.",
+            "Rewrite the CRUD form and exiting route controller.",
+            "Develop componnet states controller.",
+            "Develop offline storage strategy.",
+            "Page chaching."
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"Tech stack",
+          "content":[
+            "ES5","fetch","Vue","Vue-router","Vuex","Vue-boostrap","webpack","service-worker"
+          ]
+        }
+      ]
+    }
+  ]
+}

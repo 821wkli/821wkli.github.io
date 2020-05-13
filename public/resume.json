@@ -23,13 +23,7 @@
       "Involved design and implementation of cloud infrastructure, backend and frontend from scratch.",
       "Enjoy discovering the best solution to solve complex problems.",
       "Embrace open source community."
-    ],
-    "technology":{
-      "title":"技术栈和工具：",
-      "content":[
-        "scss","bootstrap","vue","gulp","node.js","angular","express","mongodb","webpack","ionic","photoshop","axure"
-      ]
-    }
+    ]
   },
   "skill":[
     {

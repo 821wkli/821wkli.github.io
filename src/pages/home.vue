@@ -16,7 +16,7 @@
         <div class="section-content">
           <div class="content-box">
             <div class="name-slogan">
-              <a href="https://quhongqiang.com/" target="_blank">
+              <a href="#">
                 <h2 class="wow inShow no-print" data-wow-delay="0.1s">
                   <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
                 </h2>
@@ -29,7 +29,7 @@
                 <div class="col-md-6 col-lg-3 flex">
                   <div class="item wow inShow" data-wow-delay="0.3s">
                     <h4>Gender</h4>
-                    <div class="info">{{userInfo.sex}}</div>
+                    <div class="info">{{userInfo.gender}}</div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
@@ -64,15 +64,15 @@
                     <div class="info">{{userInfo.telegram.number}}</div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 flex">
                   <h4>Website</h4>
-                  <a class="item wow inShow" data-wow-delay="0.7s" :href="userInfo.website" target="_blank">
-                    <div class="info mobile">{{userInfo.website}}</div>
+                  <a class="item wow inShow" data-wow-delay="0.7s" :href="'https://' + userInfo.website" target="_blank">
+                    <div class="info">{{userInfo.website}}</div>
                   </a>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 flex">
                   <h4>Github</h4>
-                  <a class="item wow inShow" data-wow-delay="0.75s" :href="userInfo.github" target="_blank">
+                  <a class="item wow inShow" data-wow-delay="0.75s" :href="'https://' + userInfo.github" target="_blank">
                     <div class="info">{{userInfo.github}}</div>
                   </a>
                 </div>

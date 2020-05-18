@@ -1,6 +1,6 @@
 {
   "name":"Wing Kwan LI",
-  "sex":"M",
+  "gender":"M",
   "birthday":"03/1996",
   "workSince":"null",
   "nickname":"Kwan",
@@ -14,8 +14,8 @@
   "telegram":{
     "number":"Fingerstyle888"
   },
-  "website":"https://821wkli.github.io",
-  "github":"https://github.com/821wkli",
+  "website":"821wkli.github.io",
+  "github":"github.com/821wkli",
   "email":"wingkwanli888@gmail.com",
   "intro":{
     "content":[

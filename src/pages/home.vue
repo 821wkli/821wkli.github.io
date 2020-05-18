@@ -161,7 +161,7 @@
                   <div class="tips" v-for="tip in item.tips" :key="tip.title">
                     <b>{{tip.title}}</b>
                     <ul>
-                      <li v-for="list in tip.content" :key="list">{{list}}</li>
+                      <li v-for="list in tip.content" :key="list" v-html="list"></li>
                     </ul>
                   </div>
                   <div class="technology" v-for="tech in item.technology" :key="tech.title">

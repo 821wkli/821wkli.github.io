@@ -27,7 +27,7 @@
   },
   "skill":[
     {
-      "name":"Css",
+      "name":"CSS",
       "percent":"80%"
     },
     {
@@ -47,7 +47,11 @@
       "percent":"70%"
     },
     {
-      "name":"Java(Android)",
+      "name": "Express.js",
+      "percent": "70%"
+    },
+    {
+      "name":"Java",
       "percent":"70%"
     },
     {
@@ -55,12 +59,16 @@
       "percent":"65%"
     },
     {
+      "name": "Kotlin(Android)",
+      "percent": "50%"
+    },
+    {
       "name":"Python",
       "percent":"90%"
     },
     {
       "name":"Flask framework",
-      "percent":"85%"
+      "percent":"87%"
     },
     {
       "name":"C#",
@@ -75,15 +83,38 @@
       "percent":"65%"
     },
     {
-      "name": "php",
-      "percent": "70%"
+      "name": "PHP",
+      "percent": "60%"
     },
     {
       "name": "Laravel",
-      "percent": "70%"
+      "percent": "60%"
     }
   ],
   "project":[
+    {
+      "time":"04/2020-04/2020",
+      "title":"Android barcode scanner",
+      "intro":"Freelance",
+      "description":"Scan multiple barcodes from WebView, getting a barcode scanner to work in customer's android phone when triggered from a web application running inside a webview on the native app.",
+      "tips":[
+        {
+          "title":"My works",
+          "content":[
+            "Develop a simple web form loaded in the webview that loaded on startup.",
+            "Making the native barcode scanner is invoked from Javascript on webview to scan the barcodes from camera or images, all being scanned together and displayed on the webpage."
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"Tech stack",
+          "content":[
+            "Kotlin","zxing","WebView","Javascript"
+          ]
+        }
+      ]
+    },
     {
       "time":"09/2019-11/2019",
       "title":"Desktop Stock management Tool",
@@ -190,7 +221,8 @@
             "Build a load-test framework, scaled cloud service provider automatically and simulate concurrent connections.",
             "Develop in-app send to kindle ebook reader service.",
             "Design and Develop mobile progressive web app interface.",
-            "Develop offline storage features."
+            "Develop offline storage features.",
+            "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/821wkli/OpenAcg-PWA\">https://github.com/821wkli/OpenAcg-PWA</a>"
           ]
         }
       ],
@@ -198,7 +230,7 @@
         {
           "title":"Tech stack：",
           "content":[
-            "Nginx","Python","Flask","sqlite3","Redis","Docker","grpc","Golang","Node.js","Vue.js","vue-router","vuex","vue-cli","ES6/ES7","service-worker"
+            "Nginx","Python","Flask","sqlite3","Redis","Docker","grpc","Golang","Node.js","Vue.js","vue-router","vuex","vue-cli","ES6/ES7","fetch","service-worker"
           ]
         }
       ]
@@ -207,7 +239,7 @@
       "time":"4/2019-7/2019",
       "title":"Restaurant Admin panel",
       "intro":"Freelance",
-      "description":"Migrate bootstrap 4 + jquery web dashboard to Vue.js",
+      "description":"Migrate bootstrap 4 web dashboard written in Jquery to Vue.js",
       "tips":[
         {
           "title":"My works",

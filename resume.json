@@ -214,7 +214,7 @@
             "Design and Develop domain mdel.",
             "Design grpc service prototype.",
             "Develop distributed web scraping service from various websites & apps.",
-            "Integrate multiple external non-consistent raw data into standard data structure.",
+            "Integrate external non-consistent raw data from multiple sources into standard JSON schema.",
             "Develop restful apis for frontend use.",
             "Develop auto update scheduler.",
             "Design and implement ebook conversion algorithms to convert horizonal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",

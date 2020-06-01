@@ -13,7 +13,7 @@ const devServerOption = {
 
 
 module.exports = {
-    baseUrl: '/',
+    publicPath: '/',
     outputDir: 'dist',
     productionSourceMap: false,
     devServer: devServerOption,

@@ -1,4 +1,4 @@
-{
+﻿{
   "name":"Wing Kwan LI",
   "gender":"M",
   "birthday":"03/1996",
@@ -248,7 +248,7 @@
             "Rewrite the CRUD form and exiting route controller.",
             "Develop componnet states controller.",
             "Develop offline storage strategy.",
-            "Page chaching."
+            "Page caching."
           ]
         }
       ],

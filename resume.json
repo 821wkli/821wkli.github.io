@@ -209,7 +209,7 @@
         {
           "title":"Everything is built from scrach",
           "content":[
-            "Design OpenAcg system archotecture.",
+            "Design OpenAcg system architecture.",
             "Design database architecture.",
             "Design and Develop domain mdel.",
             "Design grpc service prototype.",
@@ -246,7 +246,7 @@
           "content":[
             "Refactor UI codebase in Vue template standard.",
             "Rewrite the CRUD form and exiting route controller.",
-            "Develop componnet states controller.",
+            "Develop component states controller.",
             "Develop offline storage strategy.",
             "Page caching."
           ]

@@ -182,7 +182,7 @@
           "content":[
             "Develop spalsh view.",
             "Develop home view.",
-            "Develop base components which include swiper, footer menu, lazy-loading listview.",
+            "Develop base components which include swiper, footer menu, lazy-loading list view.",
             "Develop user profile.",
             "Develop manga detail view.",
             "Develop manga reader view.",
@@ -211,7 +211,7 @@
           "content":[
             "Design OpenAcg system architecture.",
             "Design database architecture.",
-            "Design and Develop domain mdel.",
+            "Design and Develop domain model.",
             "Design grpc service prototype.",
             "Develop distributed web scraping service from various websites & apps.",
             "Integrate external non-consistent raw data from multiple sources into standard JSON schema.",

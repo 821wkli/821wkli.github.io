@@ -207,7 +207,7 @@
       "description":"All-in-one progressive web app for anime enthusiast to read light novel, manga and watch TV animation.",
       "tips":[
         {
-          "title":"Everything is built from scrach",
+          "title":"Everything is built from scratch",
           "content":[
             "Design OpenAcg system architecture.",
             "Design database architecture.",
@@ -217,7 +217,7 @@
             "Integrate external non-consistent raw data from multiple sources into standard JSON schema.",
             "Develop restful apis for frontend use.",
             "Develop auto update scheduler.",
-            "Design and implement ebook conversion algorithms to convert horizonal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",
+            "Design and implement ebook conversion algorithms to convert horizontal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",
             "Build a load-test framework, scaled cloud service provider automatically and simulate concurrent connections.",
             "Develop in-app send to kindle ebook reader service.",
             "Design and Develop mobile progressive web app interface.",

@@ -1,51 +1,91 @@
 <template>
   <div class="main-container">
     <section class="section section-header">
-      <div class="section-bg section-header-bg"></div>
-      <div class="section-bg section-content-bg"></div>
+      <div class="section-bg section-header-bg" />
+      <div class="section-bg section-content-bg" />
       <div class="container">
         <header class="header">
           <div class="header-box">
             <div class="avatar wow inShow no-print">
-              <img src="../../public/img/icon.jpg" alt="logo" class="img-responsive">
+              <img
+                src="../../public/img/icon.jpg"
+                alt="logo"
+                class="img-responsive"
+              >
             </div>
-            <h1 class="name text-center wow inShow no-print">{{userInfo.nickname}}</h1>
-            <h1 class="name text-center hide show-print-block">{{userInfo.name}}</h1>
+            <h1 class="name text-center wow inShow no-print">
+              {{ userInfo.nickname }}
+            </h1>
+            <h1 class="name text-center hide show-print-block">
+              {{ userInfo.name }}
+            </h1>
           </div>
         </header>
         <div class="section-content">
           <div class="content-box">
             <div class="name-slogan">
               <a href="#">
-                <h2 class="wow inShow no-print" data-wow-delay="0.1s">
-                  <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
+                <h2
+                  class="wow inShow no-print"
+                  data-wow-delay="0.1s"
+                >
+                  <span class="text-light">{{ userInfo.lastName }}</span>&nbsp;{{ userInfo.firstName }}
                 </h2>
               </a>
-              <div class="description wow inShow no-print" data-wow-delay="0.15s"><i class="slogan">{{userInfo.slogan}}</i></div>
-              <div class="description wow inShow printing" data-wow-delay="0.1s">(Ctrl+p to print this resume)</div>
+              <div
+                class="description wow inShow no-print"
+                data-wow-delay="0.15s"
+              >
+                <i class="slogan">{{ userInfo.slogan }}</i>
+              </div>
+              <div
+                class="description wow inShow printing"
+                data-wow-delay="0.1s"
+              >
+                (Ctrl+p to print this resume)
+              </div>
             </div>
             <div class="contact-info">
               <div class="row">
                 <div class="col-md-6 col-lg-3 flex">
-                  <div class="item wow inShow" data-wow-delay="0.3s">
+                  <div
+                    class="item wow inShow"
+                    data-wow-delay="0.3s"
+                  >
                     <h4>Gender</h4>
-                    <div class="info">{{userInfo.gender}}</div>
+                    <div class="info">
+                      {{ userInfo.gender }}
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
-                  <div class="item wow inShow" data-wow-delay="0.45s">
+                  <div
+                    class="item wow inShow"
+                    data-wow-delay="0.45s"
+                  >
                     <h4>Age</h4>
-                    <div class="info">{{calcDate(userInfo.birthday)}}</div>
+                    <div class="info">
+                      {{ calcDate(userInfo.birthday) }}
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
-                  <div class="item wow inShow" data-wow-delay="0.5s" :href="'mailto:'+userInfo.email">
+                  <div
+                    class="item wow inShow"
+                    data-wow-delay="0.5s"
+                    :href="'mailto:'+userInfo.email"
+                  >
                     <h4>Education</h4>
-                    <div class="info">{{userInfo.education}}</div>
+                    <div class="info">
+                      {{ userInfo.education }}
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
-                  <a class="item wow inShow" data-wow-delay="0.55s">
+                  <a
+                    class="item wow inShow"
+                    data-wow-delay="0.55s"
+                  >
                     <h4>College</h4>
                     <div class="info">OUHK</div>
                   </a>
@@ -53,27 +93,47 @@
               </div>
               <div class="row">
                 <div class="col-md-6 col-lg-3 flex">
-                  <div class="item wow inShow" data-wow-delay="0.6s">
+                  <div
+                    class="item wow inShow"
+                    data-wow-delay="0.6s"
+                  >
                     <h4>Phone</h4>
-                    <address class="info">{{userInfo.phone}}</address>
+                    <address class="info">
+                      {{ userInfo.phone }}
+                    </address>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
-                  <div class="item wow inShow" data-wow-delay="0.65s">
+                  <div
+                    class="item wow inShow"
+                    data-wow-delay="0.65s"
+                  >
                     <h4>Telegram</h4>
-                    <div class="info">{{userInfo.telegram.number}}</div>
+                    <div class="info">
+                      {{ userInfo.telegram.number }}
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
                   <h4>Website</h4>
-                  <a class="item wow inShow" data-wow-delay="0.7s" :href="'https://' + userInfo.website" target="_blank">
-                    <div class="info">{{userInfo.website}}</div>
+                  <a
+                    class="item wow inShow"
+                    data-wow-delay="0.7s"
+                    :href="'https://' + userInfo.website"
+                    target="_blank"
+                  >
+                    <div class="info">{{ userInfo.website }}</div>
                   </a>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
                   <h4>Github</h4>
-                  <a class="item wow inShow" data-wow-delay="0.75s" :href="'https://' + userInfo.github" target="_blank">
-                    <div class="info">{{userInfo.github}}</div>
+                  <a
+                    class="item wow inShow"
+                    data-wow-delay="0.75s"
+                    :href="'https://' + userInfo.github"
+                    target="_blank"
+                  >
+                    <div class="info">{{ userInfo.github }}</div>
                   </a>
                 </div>
               </div>
@@ -84,19 +144,26 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
+        <div class="section-bg section-header-bg" />
+        <div class="section-bg section-content-bg" />
         <header class="header">
           <div class="content-box">
-            <h2 class="title">About me&nbsp;/&nbsp;
+            <h2 class="title">
+              About me&nbsp;/&nbsp;
               <small><i>Intro</i></small>
             </h2>
-            <div class="description">Tech Background</div>
+            <div class="description">
+              Tech Background
+            </div>
           </div>
         </header>
         <div class="section-content">
           <div class="intro">
-            <p v-for="(intro,idx) in userInfo.intro.content" :key="idx" v-html="intro"></p>
+            <p
+              v-for="(intro,idx) in userInfo.intro.content"
+              :key="idx"
+              v-html="intro"
+            />
           </div>
           <!-- <div class="technology">
             <ul class="inline">
@@ -109,25 +176,35 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
+        <div class="section-bg section-header-bg" />
+        <div class="section-bg section-content-bg" />
         <header class="header">
           <div class="content-box">
-            <h2 class="title">Skills&nbsp;/&nbsp;
+            <h2 class="title">
+              Skills&nbsp;/&nbsp;
               <small><i>Skills</i></small>
             </h2>
-            <div class="description">Language & Frameworks</div>
+            <div class="description">
+              Language & Frameworks
+            </div>
           </div>
         </header>
         <div class="section-content">
           <div class="row skill">
-            <div class="col-md-6" v-for="skill in userInfo.skill" :key="skill.name">
+            <div
+              v-for="skill in userInfo.skill"
+              :key="skill.name"
+              class="col-md-6"
+            >
               <div class="item">
                 <div class="text-info">
-                  <span class="num text-light">{{skill.percent}}</span>{{skill.name}}
+                  <span class="num text-light">{{ skill.percent }}</span>{{ skill.name }}
                 </div>
                 <div class="progress">
-                  <div class="progress-bar wow progressShow" :style="'width:'+skill.percent"></div>
+                  <div
+                    class="progress-bar wow progressShow"
+                    :style="'width:'+skill.percent"
+                  />
                 </div>
               </div>
             </div>
@@ -137,37 +214,71 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
+        <div class="section-bg section-header-bg" />
+        <div class="section-bg section-content-bg" />
         <header class="header">
           <div class="content-box">
-            <h2 class="title">Projects&nbsp;/&nbsp;
+            <h2 class="title">
+              Projects&nbsp;/&nbsp;
               <small><i>Experience</i></small>
             </h2>
-            <div class="description">Side projects</div>
+            <div class="description">
+              Side projects
+            </div>
           </div>
         </header>
         <div class="section-content">
           <div class="experience">
-            <div class="item" v-for="(item,index) in userInfo.project" :key="item.title" :class="{printOnly: index ===2}">
+            <div
+              v-for="(item,index) in userInfo.project"
+              :key="item.title"
+              class="item"
+              :class="{printOnly: index ===2}"
+            >
               <div class="row">
                 <div class="col-md-5">
-                  <div class="time">{{item.time}}</div>
-                  <div class="title" v-html="item.title"></div>
-                  <div class="description">{{item.intro}}</div>
+                  <div class="time">
+                    {{ item.time }}
+                  </div>
+                  <div
+                    class="title"
+                    v-html="item.title"
+                  />
+                  <div class="description">
+                    {{ item.intro }}
+                  </div>
                 </div>
                 <div class="col-md-7">
-                  <div class="content">{{item.description}}</div>
-                  <div class="tips" v-for="tip in item.tips" :key="tip.title">
-                    <b>{{tip.title}}</b>
+                  <div class="content">
+                    {{ item.description }}
+                  </div>
+                  <div
+                    v-for="tip in item.tips"
+                    :key="tip.title"
+                    class="tips"
+                  >
+                    <b>{{ tip.title }}</b>
                     <ul>
-                      <li v-for="list in tip.content" :key="list" v-html="list"></li>
+                      <li
+                        v-for="list in tip.content"
+                        :key="list"
+                        v-html="list"
+                      />
                     </ul>
                   </div>
-                  <div class="technology" v-for="tech in item.technology" :key="tech.title">
-                    <b>{{tech.title}}</b>
+                  <div
+                    v-for="tech in item.technology"
+                    :key="tech.title"
+                    class="technology"
+                  >
+                    <b>{{ tech.title }}</b>
                     <ul class="inline">
-                      <li v-for="(techItem,techItemIndex) in tech.content" :key="techItemIndex">{{techItem}}</li>
+                      <li
+                        v-for="(techItem,techItemIndex) in tech.content"
+                        :key="techItemIndex"
+                      >
+                        {{ techItem }}
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -180,14 +291,17 @@
 
     <section class="section no-print">
       <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
+        <div class="section-bg section-header-bg" />
+        <div class="section-bg section-content-bg" />
         <header class="header">
           <div class="content-box">
-            <h2 class="title">Contact&nbsp;/&nbsp;
+            <h2 class="title">
+              Contact&nbsp;/&nbsp;
               <small><i>Contact</i></small>
             </h2>
-            <div class="description">Conact me via the following info</div>
+            <div class="description">
+              Conact me via the following info
+            </div>
           </div>
         </header>
         <div class="section-content">
@@ -196,37 +310,59 @@
               <div class="col-md-6 col-lg-3">
                 <div class="item">
                   <h4>Phone</h4>
-                  <div class="info">{{userInfo.phone}}</div>
+                  <div class="info">
+                    {{ userInfo.phone }}
+                  </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="item">
                   <h4>Telegram</h4>
-                  <div class="info">{{userInfo.telegram.number}}</div>
+                  <div class="info">
+                    {{ userInfo.telegram.number }}
+                  </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="item">
                   <h4>Location</h4>
-                  <div class="info">{{userInfo.location}}</div>
+                  <div class="info">
+                    {{ userInfo.location }}
+                  </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-3">
-                <a class="item" :href="'mailto:'+userInfo.email">
+                <a
+                  class="item"
+                  :href="'mailto:'+userInfo.email"
+                >
                   <h4>Email</h4>
-                  <div class="info">{{userInfo.email}}</div>
+                  <div class="info">{{ userInfo.email }}</div>
                 </a>
               </div>
             </div>
           </div>
           <div class="name-slogan">
-            <a href="https://quhongqiang.com/" target="_blank">
+            <a
+              href="https://quhongqiang.com/"
+              target="_blank"
+            >
               <h2 class="wow inShow">
-                <span class="text-light">{{userInfo.lastName}}</span>&nbsp;{{userInfo.firstName}}
+                <span class="text-light">{{ userInfo.lastName }}</span>&nbsp;{{ userInfo.firstName }}
               </h2>
             </a>
-            <div class="description wow inShow" data-wow-delay="0.05s">{{userInfo.slogan}}</div>
-            <div class="description wow inShow printing" data-wow-delay="0.1s">({{userInfo.tips}})</div>
+            <div
+              class="description wow inShow"
+              data-wow-delay="0.05s"
+            >
+              {{ userInfo.slogan }}
+            </div>
+            <div
+              class="description wow inShow printing"
+              data-wow-delay="0.1s"
+            >
+              ({{ userInfo.tips }})
+            </div>
           </div>
         </div>
       </div>
@@ -235,20 +371,21 @@
 </template>
 
 <script>
-  import data from '../../public/resume.json'
-  export default {
-    name: 'front',
-    data() {
-      return {
-        userInfo: data,
-      }
+import data from '../../public/resume.json';
+
+export default {
+  name: 'Front',
+  data() {
+    return {
+      userInfo: data,
+    };
+  },
+  methods: {
+    calcDate(birthday) {
+      const year = birthday.split('/').pop();
+      const todyDate = new Date();
+      return todyDate.getFullYear() - year;
     },
-    methods:{
-      calcDate(birthday){
-        let year = birthday.split('/').pop()
-        let todyDate = new Date();
-        return todyDate.getFullYear() - year
-      }
-    }
-  }
+  },
+};
 </script>

@@ -19,7 +19,7 @@
   "email": "wingkwanli888@gmail.com",
   "intro": {
     "content": [
-      "Hey, I am a software engineer with over 4 years of experience in creating scalable, cross-region distributed systems. Expertise lies in designing and implementing a full-stack serverless solutions from scratch, as well as crafting intuitive web applications and mobile applications. Proficient in UI/UX design, ensuring seamless user experiences across different platforms. Passionate about uncovering innovative solutions to complex problems and actively contributing to the open-source community. Proven ability to adapt to new technologies and work effectively within multidisciplinary teams."
+      "Hey, I am a software engineer with over 4 years of experience in building scalable, cross-region SaaS. Expertise lies in designing and implementing a full-stack serverless solutions from scratch, as well as crafting intuitive web applications and mobile applications. Proficient in UI/UX design, ensuring seamless user experiences across different platforms. Passionate about uncovering innovative solutions to complex problems and actively contributing to the open-source community. Proven ability to adapt to new technologies and work effectively within multidisciplinary teams."
     ]
   },
   "skill": [
@@ -34,6 +34,10 @@
     {
       "name": "JavaScript",
       "percent": "99%"
+    },
+    {
+      "name": "TypeScript",
+      "percent": "95%"
     },
     {
       "name": "Vue 2",
@@ -63,7 +67,7 @@
       "name": "Java (Android)",
       "percent": "70%"
     },
-      {
+    {
       "name": "Objective-C",
       "percent": "50%"
     },
@@ -101,18 +105,22 @@
     },
     {
       "name": "Dynamodb",
-        "percent": "94%"
+      "percent": "94%"
     },
     {
       "name": "MongoDB",
-        "percent": "91%"
+      "percent": "91%"
+    },
+    {
+      "name": "Redis",
+      "percent": "87%"
     }
   ],
   "project": [
     {
       "time": "07/2020-Present",
-      "title": "Full-time Software Engineer",
-      "intro": "Working at Appcider Limited",
+      "title": "Software Engineer",
+      "intro": "Appcider Limited",
       "description": "Full-time Software Engineer at Appcider Limited, specializing in developing UI/UX and backend for ShipAny, a cross-border logistics platform. I have successfully designed and developed a serverless solution that has enabled the product to serve over 4,000 merchants in Hong Kong. Achieved a significant increase in user engagement due to the improved product UI/UX",
       "tips": [
         {
@@ -145,34 +153,25 @@
             "AWS Cognito",
             "AWS SQS",
             "AWS SES",
-            "AWS Opensearch"
+            "AWS Opensearch",
+            "AWS S3",
+            "AWS Elastic Cache"
           ]
         }
       ]
     },
-      {
+    {
       "time": "03/2023 - Present",
       "title": "<a style='display:flex;align-items:center;' href='https://github.com/thundersdata-frontend/td-design'><div class='info' style='margin-right:6px;'>td-design</div><svg width=\"24px\" height=\"24px\" style='display:inline-block;'xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>",
-      "intro": "Personal on-growing open sourced project",
-      "description": "All-in-one progressive web app for anime enthusiast to read light novel, manga and watch TV animation.",
+      "intro": "Open sourced project",
+      "description": "Contributed to the development of the React Native UI library, td-design, a comprehensive design system for building enterprise-level mobile applications.",
       "tips": [
         {
-          "title": "Everything is built from scratch",
+          "title": "Contributions",
           "content": [
-            "Design OpenAcg system architecture.",
-            "Design database architecture.",
-            "Design and Develop domain model.",
-            "Design grpc service prototype.",
-            "Develop distributed web scraping service from various websites & apps.",
-            "Integrate external non-consistent raw data from multiple sources into standard JSON schema.",
-            "Develop restful apis for frontend use.",
-            "Develop auto update scheduler.",
-            "Design and implement ebook conversion algorithms to convert horizontal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",
-            "Build a load-test framework, scaled cloud service provider automatically and simulate concurrent connections.",
-            "Develop in-app send to kindle ebook reader service.",
-            "Design and Develop mobile progressive web app interface.",
-            "Develop offline storage features.",
-            "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/821wkli/OpenAcg-PWA\">https://github.com/821wkli/OpenAcg-PWA</a>"
+            "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/thundersdata-frontend/td-design/pull/576\">https://github.com/thundersdata-frontend/td-design/pull/576</a>",
+            "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/thundersdata-frontend/td-design/pull/578\">https://github.com/thundersdata-frontend/td-design/pull/578</a>",
+            "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/thundersdata-frontend/td-design/pull/586\">https://github.com/thundersdata-frontend/td-design/pull/586</a>"
           ]
         }
       ],
@@ -180,22 +179,8 @@
         {
           "title": "Tech stack：",
           "content": [
-            "Nginx",
-            "Python",
-            "Flask",
-            "sqlite3",
-            "Redis",
-            "Docker",
-            "grpc",
-            "Golang",
-            "Node.js",
-            "Vue.js",
-            "vue-router",
-            "vuex",
-            "vue-cli",
-            "ES6/ES7",
-            "fetch",
-            "service-worker"
+            "React Native",
+            "TypeScript"
           ]
         }
       ]

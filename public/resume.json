@@ -194,9 +194,9 @@
         {
           "title": "Contributions & Works",
           "content": [
-            "Deep analysis of the O'Reilly Learning mobile app SSL pinning mechanism.",
-            "Deep analysis of the O'Reilly Learning mobile app anti-debugging mechanism.",
-            "Reverse engineer the O'Reilly Learning mobile app login API.",
+            "Conduct an in-depth analysis of the SSL pinning mechanism in the O'Reilly Learning mobile app.",
+            "Perform a comprehensive examination of the anti-debugging mechanism used by the O'Reilly Learning mobile app.",
+            "Engage in reverse engineering to the O'Reilly Learning mobile app login API.",
             "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/lorenzodifuccia/safaribooks/pull/350\">https://github.com/lorenzodifuccia/safaribooks/pull/350</a>"
           ]
         }
@@ -211,16 +211,18 @@
       ]
     },
     {
-      "time": "04/2020-04/2020",
-      "title": "Android barcode scanner",
+      "time": "04/2020-06/2020",
+      "title": "Stock management mobile app",
       "intro": "Freelance",
-      "description": "Scan multiple barcodes from WebView, getting a barcode scanner to work in customer's android phone when triggered from a web application running inside a webview on the native app.",
+      "description": "A simple stock management mobile app for a chain of hardware stores.",
       "tips": [
         {
           "title": "My works",
           "content": [
-            "Develop a simple web form loaded in the webview that loaded on startup.",
-            "Making the native barcode scanner is invoked from Javascript on webview to scan the barcodes from camera or images, all being scanned together and displayed on the webpage."
+            "Collecting requirements from customer and design the UI/UX prototype.",
+            "Develop backend restful api for mobile app use.",
+            "Integration with ZEBRA printer SDK.",
+            "Click here to check the mobile app"
           ]
         }
       ],
@@ -228,10 +230,14 @@
         {
           "title": "Tech stack",
           "content": [
-            "Kotlin",
-            "zxing",
-            "WebView",
-            "Javascript"
+            "Cloud-based",
+            "React Native",
+            "TypeScript",
+            "Nginx",
+            "Node.js",
+            "Express.js",
+            "AWS EC2",
+            "MongoDB"
           ]
         }
       ]
@@ -262,76 +268,6 @@
             "Entity framework",
             "WPF",
             "sqlite"
-          ]
-        }
-      ]
-    },
-    {
-      "time": "10/2019-03/2020",
-      "title": "Healthcare progressive web app",
-      "intro": "Freelance",
-      "description": "Development Healthcare dashboard that supports responsive solution on Tablet and Mobile screen size, both in Potrait and Landscape view",
-      "tips": [
-        {
-          "title": "My works",
-          "content": [
-            "Develop Page caching solution.",
-            "Develop custom splash screen.",
-            "Develop login form page.",
-            "Develop doctor appointments preview page.",
-            "Develop patient dashboard.",
-            "Develop component states exchange solution.",
-            "Develop header, footer and menu and notification component.",
-            "Implement ajax calls.",
-            "Design and Develop api signature algorithm."
-          ]
-        }
-      ],
-      "technology": [
-        {
-          "title": "Tech stack",
-          "content": [
-            "ES6",
-            "Vue",
-            "Vue-router",
-            "vuex",
-            "webpack",
-            "fetch",
-            "less"
-          ]
-        }
-      ]
-    },
-    {
-      "time": "07/2019-now",
-      "title": "yamibo manga mobile app",
-      "intro": "Freelance",
-      "description": "A cross-platform manga reader app.",
-      "tips": [
-        {
-          "title": "My works",
-          "content": [
-            "Develop spalsh view.",
-            "Develop home view.",
-            "Develop base components which include swiper, footer menu, lazy-loading list view.",
-            "Develop user profile.",
-            "Develop manga detail view.",
-            "Develop manga reader view.",
-            "Develop api models.",
-            "Maintenance android native Java codebase."
-          ]
-        }
-      ],
-      "technology": [
-        {
-          "title": "Tech stack",
-          "content": [
-            "Dart",
-            "flutter",
-            "Java",
-            "okhttp",
-            "retrofit",
-            "swift"
           ]
         }
       ]
@@ -381,39 +317,6 @@
             "vue-cli",
             "ES6/ES7",
             "fetch",
-            "service-worker"
-          ]
-        }
-      ]
-    },
-    {
-      "time": "4/2019-7/2019",
-      "title": "Restaurant Admin panel",
-      "intro": "Freelance",
-      "description": "Migrate bootstrap 4 web dashboard written in Jquery to Vue.js",
-      "tips": [
-        {
-          "title": "My works",
-          "content": [
-            "Refactor UI codebase in Vue template standard.",
-            "Rewrite the CRUD form and exiting route controller.",
-            "Develop component states controller.",
-            "Develop offline storage strategy.",
-            "Page caching."
-          ]
-        }
-      ],
-      "technology": [
-        {
-          "title": "Tech stack",
-          "content": [
-            "ES5",
-            "fetch",
-            "Vue",
-            "Vue-router",
-            "Vuex",
-            "Vue-boostrap",
-            "webpack",
             "service-worker"
           ]
         }

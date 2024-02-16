@@ -340,22 +340,22 @@
         <div class="section-content">
           <div class="contact">
             <div class="row">
-              <div class="col-md-6 col-lg-3">
-                <div class="item">
-                  <h4>Phone</h4>
-                  <div class="info">
-                    {{ userInfo.phone }}
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3">
-                <div class="item">
-                  <h4>Telegram</h4>
-                  <div class="info">
-                    {{ userInfo.telegram.number }}
-                  </div>
-                </div>
-              </div>
+<!--              <div class="col-md-6 col-lg-3">-->
+<!--                <div class="item">-->
+<!--                  <h4>Phone</h4>-->
+<!--                  <div class="info">-->
+<!--                    {{ userInfo.phone }}-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              <div class="col-md-6 col-lg-3">-->
+<!--                <div class="item">-->
+<!--                  <h4>Telegram</h4>-->
+<!--                  <div class="info">-->
+<!--                    {{ userInfo.telegram.number }}-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
               <div class="col-md-6 col-lg-3">
                 <div class="item">
                   <h4>Location</h4>

@@ -289,6 +289,17 @@
       </div>
     </section>
 
+    <section class="section show-case">
+      <img src="../../public/img/showcase-stock.jpg">
+    </section>
+    <section class="section show-case-app">
+      <img
+        v-for="(img,index) in stockAppImageList"
+        :key="index"
+        class="responsive-image"
+        :src="require(`../../public/img/${img}`)"
+      >
+    </section>
     <section class="section no-print">
       <div class="container">
         <div class="section-bg section-header-bg" />
@@ -300,7 +311,7 @@
               <small><i>Contact</i></small>
             </h2>
             <div class="description">
-              Conact me via the following info
+              Contact me via the following info
             </div>
           </div>
         </header>
@@ -378,14 +389,65 @@ export default {
   data() {
     return {
       userInfo: data,
+      stockAppImageList: [
+        'stock-app-1.png',
+        'stock-app-2.png',
+        'stock-app-3.png',
+        'stock-app-4.png',
+        'stock-app-5.png',
+        'stock-app-6.png',
+        'stock-app-7.png',
+        'stock-app-8.png',
+        'stock-app-9.png',
+        'stock-app-11.png',
+        'stock-app-12.png',
+        'stock-app-13.png',
+      ],
     };
   },
   methods: {
     calcDate(birthday) {
-      const year = birthday.split('/').pop();
+      const year = birthday.split('/')
+        .pop();
       const todyDate = new Date();
       return todyDate.getFullYear() - year;
     },
   },
 };
 </script>
+
+<style scoped>
+.show-case {
+  width: 100vw;
+
+img {
+  width: 100%;
+}
+
+}
+
+.show-case-app {
+  color: rgb(243, 243, 243);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.responsive-image {
+  width: 100%; /* Make images fill the available space */
+  margin-bottom: 15px; /* Add some space between images */
+}
+
+@media (min-width: 768px) {
+  .responsive-image {
+    width: calc(50% - 15px); /* Show 2 images per row on laptops */
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-image {
+    width: calc(25% - 15px); /* Show 4 images per row on desktops */
+  }
+}
+</style>

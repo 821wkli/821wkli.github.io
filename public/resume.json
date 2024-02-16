@@ -245,25 +245,21 @@
     {
       "time": "04/2019-06/2020",
       "title": "<a style='display:flex;align-items:center;' href='https://github.com/821wkli/OpenAcg-PWA'><div class='info' style='margin-right:6px;'>OpenAcg</div><svg width=\"24px\" height=\"24px\" style='display:inline-block;'xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>",
-      "intro": "Personal on-growing open sourced project",
+      "intro": "",
       "description": "All-in-one progressive web app for anime enthusiast to read light novel, manga and watch TV animation.",
       "tips": [
         {
-          "title": "Everything is built from scratch",
+          "title": "My works",
           "content": [
-            "Design OpenAcg system architecture.",
-            "Design database architecture.",
-            "Design and Develop domain model.",
-            "Design grpc service prototype.",
+            "Design OpenAcg architecture.",
+            "Design database schema.",
             "Develop distributed web scraping service from various websites & apps.",
             "Integrate external non-consistent raw data from multiple sources into standard JSON schema.",
-            "Develop restful apis for frontend use.",
+            "Develop restful apis for web frontend use.",
             "Develop auto update scheduler.",
             "Design and implement ebook conversion algorithms to convert horizontal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",
-            "Build a load-test framework, scaled cloud service provider automatically and simulate concurrent connections.",
             "Develop in-app send to kindle ebook reader service.",
-            "Design and Develop mobile progressive web app interface.",
-            "Develop offline storage features.",
+            "Design and Develop mobile progressive web app.",
             "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/821wkli/OpenAcg-PWA\">https://github.com/821wkli/OpenAcg-PWA</a>"
           ]
         }

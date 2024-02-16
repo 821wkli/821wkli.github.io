@@ -251,15 +251,12 @@
         {
           "title": "My works",
           "content": [
-            "Design OpenAcg architecture.",
-            "Design database schema.",
-            "Develop distributed web scraping service from various websites & apps.",
-            "Integrate external non-consistent raw data from multiple sources into standard JSON schema.",
-            "Develop restful apis for web frontend use.",
-            "Develop auto update scheduler.",
-            "Design and implement ebook conversion algorithms to convert horizontal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebook with vertical text layout.",
-            "Develop in-app send to kindle ebook reader service.",
-            "Design and Develop mobile progressive web app.",
+            "Designed the architecture of OpenAcg.",
+            "Developed a distributed web scraping service for extracting data from various websites and apps.",
+            "Developed RESTful APIs for web frontend usage.",
+            "Designed and implemented ebook conversion algorithms to convert horizontal text layout Chinese txt, mobi, azw3, epub to Traditional Chinese ebooks with vertical text layout.\n",
+            "Developed an in-app service for sending ebooks to Kindle ebook readers.\n",
+            "Designed and developed the mobile progressive web app.",
             "<a target=\"_blank\" style=\"color:blue;\"href=\"https://github.com/821wkli/OpenAcg-PWA\">https://github.com/821wkli/OpenAcg-PWA</a>"
           ]
         }
@@ -275,8 +272,6 @@
             "Redis",
             "Docker",
             "grpc",
-            "Golang",
-            "Node.js",
             "Vue.js",
             "vue-router",
             "vuex",

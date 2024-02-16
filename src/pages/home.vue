@@ -47,28 +47,28 @@
             </div>
             <div class="contact-info">
               <div class="row">
-                <div class="col-md-6 col-lg-3 flex">
-                  <div
-                    class="item wow inShow"
-                    data-wow-delay="0.3s"
-                  >
-                    <h4>Gender</h4>
-                    <div class="info">
-                      {{ userInfo.gender }}
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 flex">
-                  <div
-                    class="item wow inShow"
-                    data-wow-delay="0.45s"
-                  >
-                    <h4>Age</h4>
-                    <div class="info">
-                      {{ calcDate(userInfo.birthday) }}
-                    </div>
-                  </div>
-                </div>
+                <!--                <div class="col-md-6 col-lg-3 flex">-->
+                <!--                  <div-->
+                <!--                    class="item wow inShow"-->
+                <!--                    data-wow-delay="0.3s"-->
+                <!--                  >-->
+                <!--                    <h4>Gender</h4>-->
+                <!--                    <div class="info">-->
+                <!--                      {{ userInfo.gender }}-->
+                <!--                    </div>-->
+                <!--                  </div>-->
+                <!--                </div>-->
+                <!--                <div class="col-md-6 col-lg-3 flex">-->
+                <!--                  <div-->
+                <!--                    class="item wow inShow"-->
+                <!--                    data-wow-delay="0.45s"-->
+                <!--                  >-->
+                <!--                    <h4>Age</h4>-->
+                <!--                    <div class="info">-->
+                <!--                      {{ calcDate(userInfo.birthday) }}-->
+                <!--                    </div>-->
+                <!--                  </div>-->
+                <!--                </div>-->
                 <div class="col-md-6 col-lg-3 flex">
                   <div
                     class="item wow inShow"
@@ -89,30 +89,6 @@
                     <h4>College</h4>
                     <div class="info">OUHK</div>
                   </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-lg-3 flex">
-                  <div
-                    class="item wow inShow"
-                    data-wow-delay="0.6s"
-                  >
-                    <h4>Phone</h4>
-                    <address class="info">
-                      {{ userInfo.phone }}
-                    </address>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-3 flex">
-                  <div
-                    class="item wow inShow"
-                    data-wow-delay="0.65s"
-                  >
-                    <h4>Telegram</h4>
-                    <div class="info">
-                      {{ userInfo.telegram.number }}
-                    </div>
-                  </div>
                 </div>
                 <div class="col-md-6 col-lg-3 flex">
                   <h4>Website</h4>
@@ -136,6 +112,52 @@
                     <div class="info">{{ userInfo.github }}</div>
                   </a>
                 </div>
+              </div>
+              <div class="row">
+                <!--                <div class="col-md-6 col-lg-3 flex">-->
+                <!--                  <div-->
+                <!--                    class="item wow inShow"-->
+                <!--                    data-wow-delay="0.6s"-->
+                <!--                  >-->
+                <!--                    <h4>Phone</h4>-->
+                <!--                    <address class="info">-->
+                <!--                      {{ userInfo.phone }}-->
+                <!--                    </address>-->
+                <!--                  </div>-->
+                <!--                </div>-->
+                <!--                <div class="col-md-6 col-lg-3 flex">-->
+                <!--                  <div-->
+                <!--                    class="item wow inShow"-->
+                <!--                    data-wow-delay="0.65s"-->
+                <!--                  >-->
+                <!--                    <h4>Telegram</h4>-->
+                <!--                    <div class="info">-->
+                <!--                      {{ userInfo.telegram.number }}-->
+                <!--                    </div>-->
+                <!--                  </div>-->
+                <!--                </div>-->
+                <!--                <div class="col-md-6 col-lg-3 flex">-->
+                <!--                  <h4>Website</h4>-->
+                <!--                  <a-->
+                <!--                    class="item wow inShow"-->
+                <!--                    data-wow-delay="0.7s"-->
+                <!--                    :href="'https://' + userInfo.website"-->
+                <!--                    target="_blank"-->
+                <!--                  >-->
+                <!--                    <div class="info">{{ userInfo.website }}</div>-->
+                <!--                  </a>-->
+                <!--                </div>-->
+                <!--                <div class="col-md-6 col-lg-3 flex">-->
+                <!--                  <h4>Github</h4>-->
+                <!--                  <a-->
+                <!--                    class="item wow inShow"-->
+                <!--                    data-wow-delay="0.75s"-->
+                <!--                    :href="'https://' + userInfo.github"-->
+                <!--                    target="_blank"-->
+                <!--                  >-->
+                <!--                    <div class="info">{{ userInfo.github }}</div>-->
+                <!--                  </a>-->
+                <!--                </div>-->
               </div>
             </div>
           </div>

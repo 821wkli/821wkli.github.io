@@ -311,7 +311,7 @@
       </div>
     </section>
 
-    <section class="section show-case">
+    <section class="section show-case" id="show-case">
       <img src="../../public/img/showcase-stock.jpg">
     </section>
     <section class="section show-case-app">

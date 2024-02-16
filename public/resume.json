@@ -222,7 +222,7 @@
             "Collecting requirements from customer and design the UI/UX prototype.",
             "Develop backend restful api for mobile app use.",
             "Integration with ZEBRA printer SDK.",
-            "Click here to check the mobile app"
+            "<a style=\"color:blue;\" href=\"#show-case\">Click here to check the screenshots</a>"
           ]
         }
       ],

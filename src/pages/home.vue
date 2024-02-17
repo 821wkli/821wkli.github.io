@@ -6,13 +6,13 @@
       <div class="container">
         <header class="header">
           <div class="header-box">
-            <div class="avatar wow inShow no-print">
-              <img
-                src="../../public/img/icon.jpg"
-                alt="logo"
-                class="img-responsive"
-              >
-            </div>
+<!--            <div class="avatar wow inShow no-print">-->
+<!--              <img-->
+<!--                src="../../public/img/icon.jpg"-->
+<!--                alt="logo"-->
+<!--                class="img-responsive"-->
+<!--              >-->
+<!--            </div>-->
             <h1 class="name text-center wow inShow no-print">
               {{ userInfo.nickname }}
             </h1>
